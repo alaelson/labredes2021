@@ -13,7 +13,7 @@
 | Broadcast   | 10.9.14.255   |
 | NameServer1 | 10.9.14.10    |
 | NameServer2 | 10.9.14.11    |
-| vm1         | 10.9.14.50    |
+| vm1         | 10.9.14.100   |
 
 <p><center> Tabela 1: Definições da rede interna turma 924</center></p>
 
@@ -25,7 +25,7 @@
 | Broadcast   | 10.9.24.255   |
 | NameServer1 | 10.9.24.10    |
 | NameServer2 | 10.9.24.11    |
-| vm1         | 10.9.24.50    |
+| vm1         | 10.9.24.100   |
 
 
 
