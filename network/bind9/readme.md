@@ -13,7 +13,19 @@
 | Broadcast   | 10.9.14.255   |
 | NameServer1 | 10.9.14.10    |
 | NameServer2 | 10.9.14.11    |
-| DesktoHost1 | 10.9.14.100    |
+| vm1         | 10.9.14.50    |
+
+<p><center> Tabela 1: Definições da rede interna turma 924</center></p>
+
+| DESCRIÇÃO   | IP            |
+|:------------|:------------- |
+| rede        | 10.9.24.0     |
+| máscara     | 255.255.255.0 |
+| Gateway     | 10.9.24.1     |
+| Broadcast   | 10.9.24.255   |
+| NameServer1 | 10.9.24.10    |
+| NameServer2 | 10.9.24.11    |
+| vm1         | 10.9.24.50    |
 
 
 
