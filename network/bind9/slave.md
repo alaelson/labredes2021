@@ -5,12 +5,13 @@
    * O primeiro passo é usar o DNS Master para fazer o ns2 acessar a Internet. Para isso configure a interface de rede com o netplan
 
 ```base
-$ sudo nano /etc/netplan/50-cloud-init.yaml 
+$ sudo nano /etc/netplan/00-instaler-config.yaml 
 ```
+* Exemplo para a turma 914, para a turma 924 basta utilizar o prefixo de rede 10.9.24
 ```
 network:
     ethernets:
-        enp0s3:                        # interface local
+        ens160:                        # interface local
             addresses: [10.9.14.11/24]  # ip/mascara
             gateway4: 10.9.14.1         # ip do gateway
             dhcp4: false               # 'false' para conf. estatica 
@@ -56,13 +57,13 @@ $ sudo nano /etc/bind/named.conf.local
 zone "labredes.ifalarapiraca.local" {
   type slave;
   file "/etc/bind/zones/db.labredes.ifalarapiraca.local";
-  masters { 10.0.0.10; };
+  masters { 10.9.14.10; };
 };
 
-zone "0.0.10.in-addr.arpa" IN {
+zone "14.9.10.in-addr.arpa" IN {
   type slave;
-  file "/etc/bind/zones/db.10.0.0.rev";
-  masters { 10.0.0.10; };
+  file "/etc/bind/zones/db.10.9.14.rev";
+  masters { 10.9.14.10; };
 };
 ```
 
