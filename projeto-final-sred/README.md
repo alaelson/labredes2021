@@ -1,6 +1,6 @@
 # Projeto Final da Disciplina de Serviço de Redes
 
-   1. Criar um ambiente de rede virtualizado, no qual deve conter 4 máquinas virtuais com o S.O. Ubuntu Server.
+   1. Criar um ambiente de rede virtualizado, no qual deve conter 6 máquinas virtuais com o S.O. Ubuntu Server.
    2. Criar um documento tutorial/roteiro contendo o passo-a-passo de configuração e execução de  um ambiente de rede virtualizada.
    3. Listar a configuração de hardware utilizada em cada MV. (Ex.: quantidade de memória, número processadores/cores, espaço em disco.
        -  Iremos utilizar as VMs individuais de cada aluno para compor o grupo de máquinas em rede.
