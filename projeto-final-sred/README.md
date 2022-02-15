@@ -13,7 +13,7 @@
           -- O Grupo 4 da turma 924 usará a faixa 192.168.24.[24-31]/29 
           
    5. Criar uma tabela com as definições de domínio, com os nomes e endereços IP das MVs. 
-       - O domínio deve obdecer ao formato: ```<grupoX>.<turma9yz>.ifala.local.```
+       - O domínio deve obdecer ao formato: ```<grupoX>.<turma9yz>.ifalara.local.```
    6. Editar os hostnames com o nome de domínio no S.O. de cada MV.
    7. Em cada vm deve ter o usuário administrador e os usuários com os nomes dos integrantes do grupo. 
    8. Uma das MVs deve ser o [gateway server](https://github.com/alaelson/labredes2021/blob/master/network/nat/readme.md) do grupo, que deverá ter 2 interfaces rede (WAN e LAN)
@@ -39,6 +39,6 @@ Etapa 1 - 22/02/2022
 
 a) Apresentar as tabelas de definições de nomes e IPs para todas as VMs
 
-b) Criar o DNS Master e Slave, conforme o nome de domínio ```<grupoX>.<turma9yz>.ifala.local.```
+b) Criar o DNS Master e Slave, conforme o nome de domínio ```<grupoX>.<turma9yz>.ifalara.local.```
 
 c) Criar a página do github do projeto do grupo.
