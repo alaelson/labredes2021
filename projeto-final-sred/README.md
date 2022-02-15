@@ -21,7 +21,8 @@
    10. As outras máquinas virtuais devem ter interface para a rede interna (LAN) configurada com o endereçamento ip de cada grupo.
    11. Duas MVs devem ser os servidores de nomes: nameserver1 (ns1) e nameserver2 (ns2).   
    12. Realizar a [configuração do bind9](https://github.com/alaelson/labredes2021/blob/master/network/bind9/readme.md) com o [nameserver1 (master)](https://github.com/alaelson/labredes2021/blob/master/network/bind9/master.md) e o [nameserver2 (slave)](https://github.com/alaelson/labredes2021/blob/master/network/bind9/slave.md). 
-   13. Colocar no tutorial os resultados todos os testes dos exercícios dos roteiros de NAT, DNS (master e slave) e do compartilhamento de arquivos com samba.
+   13. Implementar um servidor Web com (Apache2, PHP e Mysql) e adiconar um página para o projeto de redes.
+   14. Colocar no tutorial os resultados todos os testes dos exercícios dos roteiros de NAT, DNS (master e slave), do compartilhamento de arquivos com samba e o servidor WEB.
 
 <p><center> Figura 1:  Topologia de Rede Virtualizada antes da execução do projeto.</center></p>   
    <img src="ProjetoFinalSRED-Antes.png" alt="Antes da Implementaçãos"
@@ -33,3 +34,9 @@
 
   14. Grupos da Turma 914 definidos [aqui](https://github.com/alaelson/labredes2021/blob/master/projeto-final-sred/grupos914.md) 
   15. Grupos da Turma 924 definidos [aqui](https://github.com/alaelson/labredes2021/blob/master/projeto-final-sred/grupos924.md)
+
+Etapa 1 - 22/02/2022
+
+a) Apresentar as tabelas de definições de nomes e IPs para todas as VMs
+b) Criar o DNS Master e Slave, conforme o nome de domínio ```<grupoX>.<turma9yz>.ifala.local.```
+c) Criar a página do github do projeto do grupo.
