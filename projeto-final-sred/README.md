@@ -35,10 +35,22 @@
   14. Grupos da Turma 914 definidos [aqui](https://github.com/alaelson/labredes2021/blob/master/projeto-final-sred/grupos914.md) 
   15. Grupos da Turma 924 definidos [aqui](https://github.com/alaelson/labredes2021/blob/master/projeto-final-sred/grupos924.md)
 
-Etapa 1 - 22/02/2022
+- [x]  Etapa 1 - 22/02/2022
 
 a) Apresentar as tabelas de definições de nomes e IPs para todas as VMs
 
-b) Criar o DNS Master e Slave, conforme o nome de domínio ```<grupoX>.<turma9yz>.ifalara.local.```
+<img src="imagem_2022-02-21_161242.png"
+	title="Teste" height="480" />			
+
+b) Criar o DNS Master e Slave, conforme o nome de domínio ```grupo4.turma914.ifalara.local.```
+
+Teste de DNS -> MASTAR(ns1) e SLAVE(ns2)
+
+<img src="teste_DNS_ns1(master).PNG"
+	title="Teste DNS master" height="480" />
+<img src="teste_DNS_ns2(slave).PNG"
+	title="Teste DNS slave" height="480" />
 
 c) Criar a página do github do projeto do grupo.
+
+Feito
