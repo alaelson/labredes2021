@@ -200,7 +200,7 @@ http://10.9.14.54
 
 # Exercícios
 
-   1. Faça após instalar o apache2 no seu servidor altere o arquivo /var/www/html/index.html e adicione o código:
+   1. Faça após instalar o apache2 no seu servidor altere o arquivo ```/var/www/html/index.html``` e adicione o código:
 ```html
 <html>
 <head>
