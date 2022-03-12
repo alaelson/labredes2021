@@ -53,11 +53,9 @@ $ cp 000-default.conf www.grupox.turma914.ifalara.local.conf
 ```
   * Edite o arquivo ``www.grupox.turma914.ifalara.local.conf`` como segue:
 
-```
+@include[www.grupox.turma914.ifalara.local.conf](https://github.com/alaelson/labredes2021/blob/main/network/lamp/siteDemo/www.grupox.turma914.ifalara.local.conf)
 
-```
 
-```
 
 
         
