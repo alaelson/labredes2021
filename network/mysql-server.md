@@ -1,4 +1,4 @@
-# Configuração do servidor de banco de dados com MySQL 8
+# Configuração do servidor de banco de dados com MySQL 7.4
 
 ## Relembre as definições de rede na Tabelas 1 e 2, relativas as turams 914 e 924, respectivamente.
 
@@ -79,7 +79,7 @@ mysqlx-bind-address     = 127.0.0.1
   * Então edite a linha ``mysqlx-bind-address     = 127.0.0.1`` para ``mysqlx-bind-address     = 0.0.0.0``.
 ```bash
 # localhost which is more compatible and is not less secure.
-bind-address            = 127.0.0.1
+bind-address            = 0.0.0.0
 mysqlx-bind-address     = 0.0.0.0
 ```
   * restart o mysql:
@@ -90,7 +90,7 @@ $ systemctl restart mysql
 ```bash
 $ netstat -an | grep LISTEN
 tcp        0      0 0.0.0.0:33060           0.0.0.0:*               LISTEN     
-tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN
+tcp        0      0 0.0.0.0:3306            0.0.0.0:*               LISTEN
 tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN     
 tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN     
 tcp6       0      0 :::22                   :::*                    LISTEN     
