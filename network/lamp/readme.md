@@ -48,12 +48,15 @@
 
 ### Configuração do Virtual-Host no Servidor Web
 
-* Para configurar a url do seu site web no Apache, [clique aqui](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/virtual-host.md)
+* Para configurar a url do seu site web no Apache [clique aqui](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/virtual-host.md)
 
-### Configuração do Web LAMP (Linux+Apache+PHP+Mysql)
+### Criando um banco de dados demo
 
-* Para realizar a configuração do serviço Web com LAMP, [clique aqui](https://github.com/alaelson/labredes2021/blob/master/network/lamp/readme.md)
+* Para que haja interação o servidor Web e o seu Banco de dados é necessário criar uma banco de testes de demonstração. 
+* Para utilizar um banco de dados de teste [clique aqui](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/createdatabase.md)
 
-### Configuração do gateway server/NAT
+### Criando um Site Web LAMP Completo com acesso ao Banco de dados
 
-* Para realizar a configuração de um servidor de gateway com Iptables/NAT, [clique aqui](https://github.com/alaelson/labredes2021/blob/master/network/nat/readme.md)
+* Para que haja interação o servidor Web e o seu Banco de dados é necessário criar um site de demonstração.  [clique aqui](https://github.com/alaelson/labredes2021/blob/main/network/lamp/siteDemo/readme.md)
+
+
