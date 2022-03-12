@@ -95,7 +95,7 @@ $ sudo systemclt reload apache2
 
 ## Exercícios
 
-1. Crie um arquivo index.html e insira no ``DocumentRoot`` do seu grupo. Acesse pelo browser usando a url do seu site por exemplo ``www.grupox.turma914.ifalara.local``.
+1. Crie um arquivo ``index.html e insira no ``DocumentRoot`` do seu grupo. Acesse pelo browser usando a url do seu site por exemplo ``www.grupox.turma914.ifalara.local``.
 2. Instale o browser de terminal ``lynx`` e acesse o seu site a partir de uma outra VM do seu grupo.
 ```bash
 $ sudo apt install lynx -y
