@@ -78,7 +78,7 @@ To activate the new configuration, you need to run:
 $ sudo systemclt reload apache2
 ```
 
- * Crie a pasta que vai armazenar seus arquivos do site conforme especificado no ``DocumentRoot`` no arquivo de virtual-host ``/etc/apache2/sites-available/www.grupox.turma914.ifalara.local.conf"
+ * Crie a pasta que vai armazenar seus arquivos do site conforme especificado no ``DocumentRoot`` no arquivo de virtual-host ``/etc/apache2/sites-available/www.grupox.turma914.ifalara.local.conf
 
 ```
 $ cd /var/www/
@@ -91,7 +91,7 @@ $ ls -la
 $ sudo systemclt reload apache2
 ```
 
-* Agora é somente colocar os arquivos da sua página dentro da pasta ``DocumentRoot``!!!
+* Agora é somente colocar os arquivos da sua página dentro da pasta ``DocumentRoot`` !!!
 
 ## Exercícios
 
