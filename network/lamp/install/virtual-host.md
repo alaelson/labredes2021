@@ -38,7 +38,7 @@
   * Se esta operação der certo seu dns estará configurado certinho para o servidor web. Se falhar, verifique as configurações das interfaces de rede (clientes) e ou do serviço Bind9 (Servidor DNS).
   * Considerando que seu DNS está operacional, temos que configurar o servidor apache para que ele reconheça o nome da máquina www (ex.: ``www.grupox.turma914.ifalara.local``) como sendo a URL raíz da página, como geralmente acessamos um endereço na Internet. 
 
-  * No servidor www.grupox.turma914.ifalara.local faça:
+  * No servidor ``www.grupox.turma914.ifalara.local`` faça:
 
 ```bash
 $ cd /etc/apache2/sites-available
@@ -86,6 +86,15 @@ $ sudo mkdir www.grupox.turma914.ifalara.local
 $ ls -la
 ```
 
+* Recarregue o seu apache:
+```bash
+$ sudo systemclt reload apache2
+```
 
+* Agora é somente colocar os arquivos da sua página dentro da pasta ``DocumentRoot``!!!
 
-        
+## Exercícios
+
+1. Crie um arquivo index.html e insira no ``DocumentRoot`` do seu grupo. Acesse pelo browser usando a url do seu site por exemplo ``www.grupox.turma914.ifalara.local``.
+2. Instale o browser de terminal ``lynx`` e acesse o seu site a partir de uma outra VM do seu grupo.
+
