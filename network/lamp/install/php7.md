@@ -70,6 +70,6 @@ http://10.9.14.54/info.php
 ````
 
 <p><center> Figura 1: Carregamento do arquivo info.php no servidor Web</center></p>   
-   <img src="https://github.com/alaelson/labredes2021/blob/main/network/php.info.png" alt="PHP rodando com sucesso!"
+   <img src="https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/php.info.png" alt="PHP rodando com sucesso!"
 	title="Informações do php7.4 no servidor Web" width="1024" height="900" />
 
