@@ -76,7 +76,7 @@ tcp6       0      0 :::22                   :::*                    LISTEN
 bind-address            = 127.0.0.1
 mysqlx-bind-address     = 127.0.0.1
 ```
-  * Então edite a linha ``mysqlx-bind-address     = 127.0.0.1`` para ``mysqlx-bind-address     = 0.0.0.0``.
+  * Então edite a linhas ``mysqlx-bind-address``e ``bind-address`` de ``127.0.0.1`` ``0.0.0.0``.
 ```bash
 # localhost which is more compatible and is not less secure.
 bind-address            = 0.0.0.0
