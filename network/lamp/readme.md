@@ -41,9 +41,9 @@
 
 * Para a instalação e configuração básica do servidor web Apache, [clique aqui](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/apache2-server.md)
 
-### Configuração do SAMBA
+### Configuração do PHP7.4
 
-* Para realizar a configuração de um servidor de arquivos com Samba, [clique aqui](https://github.com/alaelson/labredes2021/blob/master/network/samba/readme.md)
+* Para a instalação e configuração básica do compilador PHP7.4 e do módulo para o Apache, [clique aqui](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/php7.md)
 
 ### Configuração do Bind9 (DNS Server)
 
