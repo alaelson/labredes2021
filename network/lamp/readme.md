@@ -1,7 +1,8 @@
 # Servidor Web com LAMP (Linux+Apache+PHP+MySQL)
 
 * O primeiro passo é definir as informações de nomes e endereços IP para cada host/servidor que pertence a sua rede.
-* As configurações do servidor Web requer estão de acordo com os requisitos do projeto final, em que os servidores web (www) e de banco de dados (mysql) devem ser instalados em máquinas diferentes.
+* As configurações do servidor Web requer estão de acordo com os requisitos do projeto final, em que os servidores web (www) e de banco de dados (mysql) devem ser instalados em máquinas diferentes. 
+* As configurações de segurança nos dois servidores ficarão a cargo do firewall que irá rodar o servidor de NAT/Gateway da rede. Criando então uma DMZ para os servidores WEB e BD. Por isso, não irei ativar qualquer fiwewall nas máquinas de BD e WWW. 
 * Relembre as definições de rede nas Tabelas 1 e 2, relativas as turams 914 e 924, respectivamente.
 
 
