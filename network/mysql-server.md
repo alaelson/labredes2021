@@ -1,4 +1,4 @@
-# Configuração do servidor de banco de dados com MySQL 7.4
+# Configuração do servidor de banco de dados com MySQL 8
 
 ## Relembre as definições de rede na Tabelas 1 e 2, relativas as turams 914 e 924, respectivamente.
 
@@ -194,3 +194,6 @@ mysql>
   * Digite **exit** para sair!
 
 Seu servidor de bd está pronto, é só criar seu database e rodar sua aplicação!
+
+## Se você ainda não instalou seu [Apache2]() e o [PHP7.4]() clique para instalar.
+## Se você ainda já instalou seu Apache2 e o PHP7.4 [clique aqui para testar]().
