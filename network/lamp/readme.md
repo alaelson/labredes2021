@@ -45,9 +45,9 @@
 
 * Para a instalação e configuração básica do compilador PHP7.4 e do módulo para o Apache, [clique aqui](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/php7.md)
 
-### Configuração do Bind9 (DNS Server)
+### Configuração do MySQL
 
-* Para realizar a configuração os servidores DNS Master e Slave, [clique aqui](https://github.com/alaelson/labredes2021/blob/master/network/bind9/readme.md)
+* Para a instalação e configuração básica do MySQL 8, [clique aqui](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/mysql-server.md)
 
 ### Configuração do Web LAMP (Linux+Apache+PHP+Mysql)
 
