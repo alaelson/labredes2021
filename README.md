@@ -16,7 +16,7 @@ Neste espaço teremos os códigos utilizados para a disciplina de Serviços de R
 
 ### Configuração do Web LAMP (Linux+Apache+PHP+Mysql)
 
-* Para realizar a configuração do serviço Web com LAMP, [clique aqui](https://github.com/alaelson/labredes2021/blob/master/network/LAMP/readme.md)
+* Para realizar a configuração do serviço Web com LAMP, [clique aqui](https://github.com/alaelson/labredes2021/blob/master/network/lamp/readme.md)
 
 ### Configuração do gateway server/NAT
 
