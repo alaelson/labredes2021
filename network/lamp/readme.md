@@ -36,3 +36,23 @@
 | samba       | 10.9.24.56    | samba.grupox.turma924.ifalara.local       |
 
 * O primeiro passo é instalar o servidor web Apache. Para isso deve-se utilizar a máquina que foi selecionada para ser o servidor www do seu grupo, conforme as Tabelas 1 e 2. 
+
+### Configuração do Apache 2
+
+* Para a instalação e configuração básica do servidor web Apache, [clique aqui](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/apache2-server.md)
+
+### Configuração do SAMBA
+
+* Para realizar a configuração de um servidor de arquivos com Samba, [clique aqui](https://github.com/alaelson/labredes2021/blob/master/network/samba/readme.md)
+
+### Configuração do Bind9 (DNS Server)
+
+* Para realizar a configuração os servidores DNS Master e Slave, [clique aqui](https://github.com/alaelson/labredes2021/blob/master/network/bind9/readme.md)
+
+### Configuração do Web LAMP (Linux+Apache+PHP+Mysql)
+
+* Para realizar a configuração do serviço Web com LAMP, [clique aqui](https://github.com/alaelson/labredes2021/blob/master/network/lamp/readme.md)
+
+### Configuração do gateway server/NAT
+
+* Para realizar a configuração de um servidor de gateway com Iptables/NAT, [clique aqui](https://github.com/alaelson/labredes2021/blob/master/network/nat/readme.md)
