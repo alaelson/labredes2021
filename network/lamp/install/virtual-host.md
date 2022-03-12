@@ -51,9 +51,32 @@ $ ls -la
 ```bash
 $ cp 000-default.conf www.grupox.turma914.ifalara.local.conf
 ```
-  * Edite o arquivo ``www.grupox.turma914.ifalara.local.conf`` como segue:
+  * Edite o arquivo ``www.grupox.turma914.ifalara.local.conf`` e adicione as seguintes linhas dentro o escopo ``<VirtualHost>``
 
-@include[www.grupox.turma914.ifalara.local.conf](https://github.com/alaelson/labredes2021/blob/main/network/lamp/siteDemo/www.grupox.turma914.ifalara.local.conf)
+```
+<VirtualHost *:80>
+  ServerAdmin webmaster@localhost                              # Pessoa que administra o site
+	 DocumentRoot /var/www/www.grupox.turma914.ifalara.local      # Diretório onde os arquivos do site ficarão
+	 ServerName www.grupox.turma914.ifalara.local                 # Nome do servidor, ou seja, a url raíz do site.
+<\VirtualHost>
+```
+ * Não remover as linhas de log de erros:
+``
+ErrorLog ${APACHE_LOG_DIR}/error.log
+CustomLog ${APACHE_LOG_DIR}/access.log combined
+``
+ * Habilite seu arquivo de configuração do seu site  o seu apache:
+```bash
+$ sudo a2ensite www.grupox.turma914.ifalara.local.conf
+Enabling site www.grupox.turma914.ifalara.local.
+To activate the new configuration, you need to run:
+  systemctl reload apache2
+```
+
+ * Recarregue o seu apache:
+```bash
+$ sudo systemclt reload apache2
+```
 
 
 
