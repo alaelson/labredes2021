@@ -1,0 +1,36 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Cadastro - SRED</title> 
+<!-- Include CSS File Here-->
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<div class="main">
+<h2>Inserir informações no banco de dados</h2>
+
+<form action="insertGrupo.php" method="post">
+	<p> <strong>Adicionar grupo:</strong></p>
+	<p> ID do Grupo (GID): <input type="text" name="GID"></p> 
+	<p> Nome do Grupo: <input type="text" name="Nome"></p>
+	<p> Domínio (FQDN) do grupo: <input type="text" name="Dominio"></p>
+	<input type="submit" name="submit" value="salvar">
+</form>
+<form action="insertAluno.php" method="post">
+	<p> <strong>Adicionar aluno:</strong> </p> 
+	<p> Nome: <input type="text" name="Nome"></p> 
+	<p> e-mail: <input type="text" name="Email"></p> 
+	<p> ID do Grupo: <input type="text" name="GID"></p> 
+	<input type="submit" name="submit" value="salvar">
+</form>
+<form action="insertHost.php" method="post">
+	<p> <strong>Adicionar vm host:</strong> </p> 
+	<p> Nome: <input type="text" name="VMName"></p> 
+	<p> Nome FQDN do Host: <input type="text" name="FQDName"></p> 
+	<p> ID do Grupo: <input type="text" name="GID"></p> 
+	<input type="submit" name="submit" value="salvar"> 
+</form>
+</div>
+</div>
+</body>
+</html>

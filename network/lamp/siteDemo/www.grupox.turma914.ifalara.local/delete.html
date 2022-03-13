@@ -1,0 +1,35 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Delete - SRED</title> 
+<!-- Include CSS File Here-->
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<div class="main">
+<h2>Remove dados no banco de dados</h2>
+
+<form action="deleteGrupo.php" method="post">
+	<p> <strong>Remover grupo:</strong>    <span> Apaga todos os registros relativo ao GID</span></p>
+	<p> ID do Grupo (GID): <input type="text" name="GID"></p> 
+	<input type="submit" name="submit" value="remover">
+	<?php include'deleteGrupo.php'; ?>
+</form>
+<form action="deleteAluno.php" method="post">
+	<p> <strong>Remover aluno:</strong>    <span> O UID do aluno deve pertencer a um GID válido</span></p> 
+	<p> UID: <input type="text" name="UID"></p> 
+	<p> GID: <input type="text" name="GID"></p> 
+	<?php include'deleteAluno.php'; ?>
+	<input type="submit" name="submit" value="remover">
+</form>
+<form action="deleteHost.php" method="post">
+	<p> <strong>Remover host:</strong>    <span> O HID do host deve pertencer a um GID válido</span </p> 
+	<p> HID: <input type="text" name="HID"></p> 
+	<p> GID: <input type="text" name="GID"></p> 
+	<?php include'deleteHost.php'; ?>
+	<input type="submit" name="submit" value="remover"> 
+</form>
+</div>
+</div>
+</body>
+</html>
