@@ -143,19 +143,19 @@ $ unzip scrip_teste_db.zip
 * Execute os scripts de teste:
 * para inserir uma entrada no bd
 ```bash
-$ sudo php insert.php
+$ php insert.php
 ```
 * para consultar a entrada no bd
 ```bash
-$ sudo php select.php
+$ php select.php
 ```
 * para deletar a entrada no bd
 ```bash
-$ sudo php del.php
+$ php del.php
 ```
 * ou para alterar a entrada no bd
 ```bash
-$ sudo php update.php
+$ php update.php
 ```
 
 
