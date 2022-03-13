@@ -7,9 +7,22 @@
 ### Alguns _Screen Shots_ do Site Demo:
 
 * Home Page
-
-
-
+<p><center> Figura 1: Execução do arquivo ``index.html`` no browser</center></p>   
+   <img src="sitedemo_homepage.png" alt="Home Page"
+	title="Figura 1: Execução do arquivo index.html no browser" width="540" height="480" />
 * Cadastrar Dados 
-* Deletar Dados
+<p><center> Figura 2: execução do arquivo ``insert.html`` no browser</center></p>   
+   <img src="sitedemo_cadastrardados.png" alt="Cadastrar Dados"
+	title="Figura 2: Cadastro" width="540" height="480" />
+* Consultar Dados
+<p><center> Figura 3: execução do arquivo de consulta ``consult.php`` no browser</center></p>   
+   <img src="sitedemo_consultar.png" alt="Consultar Dados"
+	title="Figura 3: Consultar Dados" width="540" height="480" />
 * Atualizar Dados
+<p><center> Figura 4: execução do arquivo de atualização ``update.html`` no browser</center></p>   
+   <img src="sitedemo_atualizardados.png" alt="Atualizar Dados"
+	title="Figura 4: Atualizar Dados" width="540" height="480" />
+* Deletar Dados
+<p><center> Figura 5: execução do arquivo de atualização ``update.html`` no browser</center></p>   
+   <img src="sitedemo_atualizardados.png" alt="Deletar Dados"
+	title="Figura 5: Deletar Dados" width="540" height="480" />
