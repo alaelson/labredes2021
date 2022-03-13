@@ -136,7 +136,7 @@ exit
 * baixe o scritp demo para a criação do database no servidor de banco de dados do projeto final.
 ```bash
 $ cd ~
-$ curl https://github.com/alaelson/labredes2021/blob/main/network/lamp/testedb/script_teste_db.zip
+$ curl https://github.com/alaelson/labredes2021/blob/main/network/lamp/testedb/script_teste_db.zip -o script_teste_db.zip
 $ unzip scrip_teste_db.zip
 ```
 
