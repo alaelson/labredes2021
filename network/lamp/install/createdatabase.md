@@ -128,7 +128,7 @@ exit
 ```
 
 * Para testar o seu banco de dados, use os scrips de teste. Para isso baixe o zip e unzip para descompactar o arquivo [script_teste_db.zip]( https://github.com/alaelson/labredes2021/blob/main/network/lamp/testedb/script_teste_db.zip) na máquina do seu servidor Web.
-* Neste caso é o máquina ``10.9.14.54`` ou ``www.grupox.turma914.ifalara.local``, conforme a Tabela 1.
+* Neste caso é a máquina ``10.9.14.54`` ou ``www.grupox.turma914.ifalara.local``, conforme a Tabela 1.
 
 ```bash
  $ sudo apt install zip unzip -y
