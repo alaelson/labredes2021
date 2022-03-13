@@ -140,7 +140,7 @@ $ curl https://github.com/alaelson/labredes2021/blob/main/network/lamp/testedb/s
 $ unzip scrip_teste_db.zip
 ```
 
-* Execute os scripts de teste:
+Execute os scripts de teste:
   * para inserir uma entrada no bd
 ```bash
 $ php insert.php
