@@ -195,5 +195,5 @@ mysql>
 
 Seu servidor de bd está pronto, é só criar seu database e rodar sua aplicação!
 
-## Se você ainda não instalou seu [Apache2]() e o [PHP7.4]() clique para instalar.
-## Se você ainda já instalou seu Apache2 e o PHP7.4 [clique aqui para testar]().
+## Se você ainda não instalou seu [Apache2](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/apache2-server.md) e o [PHP7.4](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/php7.md) clique para instalar.
+## Se você ainda já instalou seu Apache2 e o PHP7.4 [clique aqui para testar](https://github.com/alaelson/labredes2021/blob/main/network/lamp/siteDemo/readme.md).
