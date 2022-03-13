@@ -13,16 +13,16 @@
 * Cadastrar Dados 
 <p><center> Figura 2: execução do arquivo ``insert.html`` no browser</center></p>   
    <img src="sitedemo_cadastrardados.png" alt="Cadastrar Dados"
-	title="Figura 2: Cadastro" width="540" height="480" />
+	title="Figura 2: Cadastro" width="540" height="500" />
 * Consultar Dados
 <p><center> Figura 3: execução do arquivo de consulta ``consult.php`` no browser</center></p>   
    <img src="sitedemo_consultar.png" alt="Consultar Dados"
-	title="Figura 3: Consultar Dados" width="540" height="480" />
+	title="Figura 3: Consultar Dados" width="540" height="360" />
 * Atualizar Dados
 <p><center> Figura 4: execução do arquivo de atualização ``update.html`` no browser</center></p>   
    <img src="sitedemo_atualizardados.png" alt="Atualizar Dados"
-	title="Figura 4: Atualizar Dados" width="540" height="480" />
+	title="Figura 4: Atualizar Dados" width="540" height="500" />
 * Deletar Dados
 <p><center> Figura 5: execução do arquivo de atualização ``update.html`` no browser</center></p>   
    <img src="sitedemo_atualizardados.png" alt="Deletar Dados"
-	title="Figura 5: Deletar Dados" width="540" height="480" />
+	title="Figura 5: Deletar Dados" width="540" height="500" />
