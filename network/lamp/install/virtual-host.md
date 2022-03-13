@@ -86,6 +86,13 @@ $ sudo mkdir www.grupox.turma914.ifalara.local
 $ ls -la
 ```
 
+* Modifique as permissões de dono da pasta ``DocumentRoot`` para ``www-data``, que é o usuário do apache.
+```bash
+$ cd /var/www
+$ chown -R www-data:www-data www.grupox.turma914.ifalara.local
+```
+* **DICA**: sempre que adicionar arquivos ou subpastas na pasta ``DocumentRoot`` do seu site verifique as permissões dos arquivos e as modifique para ``www-data``.
+
 * Recarregue o seu apache:
 ```bash
 $ sudo systemclt reload apache2
