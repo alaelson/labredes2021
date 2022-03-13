@@ -44,7 +44,11 @@
 
 ### Configuração do PHP7.4
 
-* Para a instalação e configuração básica do compilador PHP7.4 e do módulo para o Apache, [clique aqui](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/php7.md)
+* Para a instalação e configuração básica do compilador PHP7.4 e do módulo para o Apache [clique aqui](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/php7.md)
+
+### Configuração do MySQL 8
+
+* Para a instalação e configuração básica do Sistema de Gerenciamento de Banco de Dados MySQL [clique aqui](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/mysql-server.md)
 
 ### Configuração do Virtual-Host no Servidor Web
 
