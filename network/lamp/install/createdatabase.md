@@ -38,19 +38,6 @@
 * Acesse a máquina que será utilizada em seu projeto final para o banco de dados MySQL. Consulte a sua própria tabela de Nomes e Endereços IPs.
 * Aqui nosso servidor de banco de dados de teste está o bd da turma 914 ``IP: 10.9.14.55`` conforme a Tabela 1. O nome FQDN deste servidor é ``bd.grupox.turma914.ifalara.local``.
 
-* Antes de começar instale o zip e o unzip na máquina
-
-```bash
- $ sudo apt install zip unzip -y
-```
-* baixe o scritp demo para a criação do database no servidor de banco de dados do projeto final.
-* 
-* 
-```bash
-$ cd ~
-$ curl https://github.com/alaelson/labredes2021/blob/main/network/lamp/testedb/script_teste_db.zip
-$ unzip scrip_teste_db.zip
-```
 * carregue o script demo no seu banco de dados mysql
 ```bash
 $ sudo mysql
@@ -139,6 +126,38 @@ CREATE USER 'pfadmin'@'10.9.14.54' IDENTIFIED BY '4dm1n@BD';
 GRANT ALL PRIVILEGES ON *.* TO 'pfadmin'@'10.9.14.54' WITH GRANT OPTION;
 exit
 ```
+
+* Para testar o seu banco de dados, use os scrips de teste. Para isso baixe o zip e unzip para descompactar o arquivo [script_teste_db.zip]( https://github.com/alaelson/labredes2021/blob/main/network/lamp/testedb/script_teste_db.zip) na máquina do seu servidor Web.
+* Neste caso é o máquina ``10.9.14.54`` ou ``www.grupox.turma914.ifalara.local``, conforme a Tabela 1.
+
+```bash
+ $ sudo apt install zip unzip -y
+```
+* baixe o scritp demo para a criação do database no servidor de banco de dados do projeto final.
+```bash
+$ cd ~
+$ curl https://github.com/alaelson/labredes2021/blob/main/network/lamp/testedb/script_teste_db.zip
+$ unzip scrip_teste_db.zip
+```
+
+* Execute os scripts de teste:
+* para inserir uma entrada no bd
+```bash
+$ sudo php insert.php
+```
+* para consultar a entrada no bd
+```bash
+$ sudo php select.php
+```
+* para deletar a entrada no bd
+```bash
+$ sudo php del.php
+```
+* ou para alterar a entrada no bd
+```bash
+$ sudo php update.php
+```
+
 
 #### Os grupos do projeto final de redes podem usar os códigos livremente, ou implementar novos. Contribuições também são bem vindas!!!!
 
