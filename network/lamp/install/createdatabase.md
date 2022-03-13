@@ -140,7 +140,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'pfadmin'@'10.9.14.54' WITH GRANT OPTION;
 exit
 ```
 
-#### Os grupos do projeto final de redes podem usar os códigos livremente, ou implementar novos, contribuições também são bem vindas!!!!
+#### Os grupos do projeto final de redes podem usar os códigos livremente, ou implementar novos. Contribuições também são bem vindas!!!!
 
 Boa Sorte!
 
