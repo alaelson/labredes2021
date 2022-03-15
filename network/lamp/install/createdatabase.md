@@ -98,7 +98,7 @@ mysql> select * from host;
 
 * O script cria um usuário no mysql chamado ``pfadmin`` com senha ``4dm1n@BD``, e dá permissão de acesso a este usuário a partir do localhost e também da máquina onde irá rodar o servidor web ``IP:10.9.14.54``, conforme apresentado na Tabela 1. 
 
-* código do arquivo createdb.sql:
+* código do arquivo [createdb.sql](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/createdb.sql):
 
 ```sql
 -- Cria o database do projeto final.
