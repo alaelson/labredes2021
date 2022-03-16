@@ -141,6 +141,8 @@ $ sudo bash -c 'grep -v -E "^#|^;" /etc/samba/smb.conf.backup | grep . > /etc/sa
 
 ```bash
 $ sudo nano /etc/samba/smb.conf
+```
+```
 [global]
    workgroup = WORKGROUP
    server string = %h server (Samba, Ubuntu)
@@ -180,7 +182,10 @@ $ sudo nano /etc/samba/smb.conf
 	* adicione as interfaces da sua máquina na linha "interfaces = 127.0.0.1/8 enp0s3", separando os nomes das interfaces por espaços.
   
 ```bash
-sudo nano /etc/samba/smb.conf
+$ sudo nano /etc/samba/smb.conf
+```
+
+```
 [global]
    workgroup = WORKGROUP
    netbios name = samba-srv
@@ -242,7 +247,7 @@ $ sudo systemctl restart smbd
 
    * modifica a pasta /samba/public para acesso a somente usuários do grupo sambashare
    
-```bash
+```
 [public]
    comment = public anonymous access
    path = /samba/public
