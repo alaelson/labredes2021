@@ -15,7 +15,7 @@
 $ unzip www.grupox.turma914.ifalara.local.zip
 $ sudo cp -r www.grupox.turma914.ifalara.local /var/www/
 ```
-* Modifique as propriedade da pasta ``www-data``.
+* Modifique as propriedade da pasta para o usuário do apache ``www-data``.
 ```bash
 *
 $ sudo chown www-data:www-data /var/www/www.grupox.turma914.ifalara.local
