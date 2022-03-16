@@ -21,3 +21,6 @@ Neste espaço teremos os códigos utilizados para a disciplina de Serviços de R
 ### Configuração do gateway server/NAT
 
 * Para realizar a configuração de um servidor de gateway com Iptables/NAT, [clique aqui](https://github.com/alaelson/labredes2021/blob/master/network/nat/readme.md)
+
+### Projeto Final da Disciplina SRED (2021)
+* Para acessar as definições do projeto final de SRED, [clique aqui](https://github.com/alaelson/labredes2021/blob/master/projeto-final-sred/README.md)
