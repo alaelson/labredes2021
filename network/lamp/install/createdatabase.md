@@ -140,15 +140,8 @@ Nos scripts, insert.php, del.php, select.php e update.php o servidor remoto com 
 * Procure o arquivo zip que foi baixado, então arraste e solte (drag and drop) no servidor remoto.
 <p><center> Figura 1: Exemplo de uso do Filezilla para enviar um arquivo via sFTP para o servidor</center></p>   
    <img src="https://github.com/alaelson/labredes2021/blob/main/network/lamp/filezilla_send_file_to_remote.png" alt="Enviar arquivo para o servidor via sFTP"
-	title="Figura 1: Filezilla" width="540" height="500" />
+	title="Figura 1: Filezilla" width="1000" height="500" />
 
-
-* baixe o scritp demo para a criação do database no servidor de banco de dados do projeto final.
-```bash
-$ cd ~
-$ curl https://github.com/alaelson/labredes2021/blob/main/network/lamp/testedb/script_teste_db.zip -o script_teste_db.zip
-$ unzip scrip_teste_db.zip
-```
 
 Execute os scripts de teste:
   * para inserir uma entrada no bd
