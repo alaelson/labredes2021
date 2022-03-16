@@ -2,6 +2,13 @@
 
 * Faça o download do [Site Demo](https://github.com/alaelson/labredes2021/blob/551391a34728b53de28b2251ae206b17bedc277d/network/lamp/siteDemo/www.grupox.turma914.ifalara.local.zip) após as configuração do [Virtual-Host](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/virtual-host.md) no apache e da [Configuração](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/mysql-server.md) e [Teste](https://github.com/alaelson/labredes2021/blob/main/network/lamp/install/createdatabase.md) do Servidor de Banco de dados.
 
+* Baixe um programa sFTP para enviar o arquivo zip para o servidor DB: como Filezilla ou o WinSCP.
+* Conecte ao servidor usando a porta 22 (ssh) ou especifique o protocolo sFTP.
+* Procure o arquivo zip que foi baixado, então arraste e solte (drag and drop) no servidor remoto.
+<p><center> Figura 1: Exemplo de uso do Filezilla para enviar um arquivo via sFTP para o servidor</center></p>   
+   <img src="https://github.com/alaelson/labredes2021/blob/main/network/lamp/filezilla_send_file_to_remote_site.png" alt="Enviar arquivo para o servidor via sFTP"
+	title="Figura 1: Filezilla" width="1000" height="500" />
+
 * Depois basta descompactar todos os arquivos no seu diretório ``DocumentoRoot`` do site no servidor web.
 
 ### Alguns _Screen Shots_ do Site Demo:
