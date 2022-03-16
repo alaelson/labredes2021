@@ -9,7 +9,25 @@
    <img src="https://github.com/alaelson/labredes2021/blob/main/network/lamp/filezilla_send_file_to_remote_site.png" alt="Enviar arquivo para o servidor via sFTP"
 	title="Figura 1: Filezilla" width="1000" height="500" />
 
-* Depois basta descompactar todos os arquivos no seu diretório ``DocumentoRoot`` do site no servidor web.
+* Depois basta descompactar todos os arquivos no seu diretório e copiá-los para o ``DocumentoRoot`` do site no servidor web.
+
+```bash
+$ unzip www.grupox.turma914.ifalara.local.zip
+$ sudo cp -r www.grupox.turma914.ifalara.local /var/www/
+```
+* Modifique as propriedade da pasta ``www-data``.
+```bash
+*
+$ sudo chown www-data:www-data /var/www/www.grupox.turma914.ifalara.local
+$ ls -la /var/www/
+total 16
+drwxr-xr-x  4 root     root     4096 Mar 12 14:45 .
+drwxr-xr-x 14 root     root     4096 Mar  6 19:18 ..
+drwxr-xr-x  2 www-data www-data 4096 Mar 12 14:48 html
+drwxr-xr-x  3 www-data www-data 4096 Mar 12 23:08 www.grupox.turma914.ifalara.local
+```
+
+
 
 ### Alguns _Screen Shots_ do Site Demo:
 
