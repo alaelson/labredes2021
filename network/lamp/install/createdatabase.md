@@ -127,12 +127,22 @@ GRANT ALL PRIVILEGES ON *.* TO 'pfadmin'@'10.9.14.54' WITH GRANT OPTION;
 exit
 ```
 
-* Para testar o seu banco de dados, use os scrips de teste. Para isso baixe o zip e unzip para descompactar o arquivo [script_teste_db.zip]( https://github.com/alaelson/labredes2021/blob/main/network/lamp/testedb/script_teste_db.zip) na máquina do seu servidor Web.
-* Neste caso é a máquina ``10.9.14.54`` ou ``www.grupox.turma914.ifalara.local``, conforme a Tabela 1.
+* Para testar o seu banco de dados, use os [scrips de teste](https://github.com/alaelson/labredes2021/tree/main/network/lamp/testedb/script_teste_db) para conectar ao banco e executar operações de insert, delete, select e update. Para é possível baixar todos os scripts em formato zip aqui: [script_teste_db.zip]( https://github.com/alaelson/labredes2021/blob/main/network/lamp/testedb/script_teste_db.zip) na máquina do seu servidor Web.
+Nos scripts, insert.php, del.php, select.php e update.php o servidor remoto com mysql tem IP ``10.9.14.54`` ou e nome FQDN ``www.grupox.turma914.ifalara.local``, conforme a Tabela 1.
 
+* É possível usar unzip para descompactar o aquivo [script_teste_db.zip]( https://github.com/alaelson/labredes2021/blob/main/network/lamp/testedb/script_teste_db.zip) direto no servidor.
 ```bash
  $ sudo apt install zip unzip -y
 ```
+
+* Baixe um programa sFTP para enviar o arquivo zip para o servidor DB: como Filezilla ou o WinSCP.
+* Conect ao servidor usando a porta 22 (ssh) ou especifique o protocolo sFTP.
+* Procure o arquivo zip que foi baixado, então arraste e solte (drag and drop) no servidor remoto.
+<p><center> Figura 1: Exemplo de uso do Filezilla para enviar um arquivo via sFTP para o servidor</center></p>   
+   <img src="https://github.com/alaelson/labredes2021/blob/main/network/lamp/filezilla_send_file_to_remote.png" alt="Enviar arquivo para o servidor via sFTP"
+	title="Figura 1: Filezilla" width="540" height="500" />
+
+
 * baixe o scritp demo para a criação do database no servidor de banco de dados do projeto final.
 ```bash
 $ cd ~
